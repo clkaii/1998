@@ -223,7 +223,9 @@
 <script>
     let currentStep = 0;
     const income = 1998;
-    const ALLOWED_UNITS = ['宏觀', '宏觀通訊處'];
+    
+    // 🎯 已更新：擴充權限名單，加入宏觀與宏觀通訊處
+    const ALLOWED_UNITS = ['華山', '華山通訊處', '宏觀', '宏觀通訊處'];
 
     function checkStart() {
         const u = document.getElementById('unit').value.trim();
